@@ -88,14 +88,13 @@ onMounted(() => {
 .content {
   height: 100vh;
   overflow-y: scroll;
-  scroll-snap-type: y mandatory;
 }
 
 header {
   scroll-snap-align: start;
   line-height: 1.5;
   width: 100%;
-  height: 85%;
+  height: 80%;
 }
 
 main {

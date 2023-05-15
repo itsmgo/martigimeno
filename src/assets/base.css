@@ -8,7 +8,7 @@
   --color-secondary: #7DAF9C;
   --color-accent: #886F68;
   --color-background: #1E1E24;
-  --color-text: #FCF7F8;
+  --color-text: #F0F0F0;
   --color-grey: #555;
 }
 
@@ -31,6 +31,10 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2 {
+  font-weight: 500;
 }
 
 h1, h2, h3 {

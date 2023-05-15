@@ -66,6 +66,7 @@ const methods = {
     v-model="showSection"
     :achievements="props.section.achievements"
     :knowledge="props.section.knowledge"
+    :links="props.section.links"
   />
 </template>
 

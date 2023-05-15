@@ -74,7 +74,7 @@ const methods = {
 .modal-content {
   display: flex;
   position: relative;
-  padding: 1rem;
+  padding: 2rem;
   background: var(--color-background);
   border-radius: 1rem;
 }

@@ -13,15 +13,15 @@ const sections = [
       { name: "AWS Cloud", value: 30 },
     ],
     achievements: [
-      "Development of a system to manage the energy sources and loads of a building according to the needs of the site.",
+      "Development of a system (1.) to manage the energy sources and loads of a building according to the needs of the site.",
       "Presented a working mathematical model of the system elements to enable the optimization of the energy usage.",
       "Control electronic devices via Modbus TCP or OCPP protocol with a local device.",
-      "Designed and deployed a backend with a frontend app to manage the building devices and check the system performance remotely.",
+      "Designed and deployed a backend with a frontend app (2.) to manage the building devices and check the system performance remotely.",
       "Demonstrate, explain and present the system performance and functioning to current and future invertors and key accounts.",
       "Successful commissioning of 4 working prototypes to pilot sites with real users, to gather information on the performance of the system.",
       "Build a Car Sharing application for employees to use the EVs available and synchronize the information with the system's backend.",
       "Managed the purchase and installation of a 500 kWh battery, a 400kWp solar installation and 23 electric vehicles and its charging stations.",
-      "Design and creation of a promotional video for the Energy Management System, explaining the functioning of the product.",
+      "Design and creation of a promotional video (1.) for the Energy Management System, explaining the functioning of the product.",
     ],
     knowledge: [
       "Excellent Python knowledge to create the software and algorithms that control the devices and decides how to use them.",
@@ -32,6 +32,16 @@ const sections = [
       "Moderate Vue JS framework skills to help creating the frontend for the user interaction.",
       "Used weather forecasting APIs to optimize the use of energy.",
       "Basic control theory (PID) has been applied in the orchestration algorithms.",
+    ],
+    links: [
+      {
+        text: "Energy Management System home page and promotional video.",
+        url: "https://wallbox.com/es_es/gestion-energetica/gestion-de-energia-sirius",
+      },
+      {
+        text: "Web application for remote control and monitoring.",
+        url: "https://sirius-pre.wallbox.com",
+      },
     ],
   },
   {
@@ -102,7 +112,7 @@ const sections = [
       { name: "FlowSimulator", value: 70 },
     ],
     achievements: [
-      "Designed and developed the mechanical parts of Wallbox's first bidirectional EV Charger: Quasar.",
+      "Designed and developed the mechanical parts of Wallbox's first bidirectional EV Charger: Quasar. (1.)",
       "The iconic design of the Quasar has been recognized with several international design awards: Red Dot award, Best of CES 2020...",
       "The mechanical design of the Quasar heatsink is in the process of being patented for its innovative shape.",
       "Managed to find a balance between the design, the mechanics and the electronics teams to meet all technical requirements.",
@@ -115,10 +125,20 @@ const sections = [
       "Excellent CAD design knowledge, in particular SolidWorks software, to design all mechanical parts.",
       "Excellent SolidWorks Flow Simulator skills to simulate the heat transfer phenomena",
       "Excellent heat transfer, fluid dynamics and thermodynamics understanding.",
-      "Very strong communication skills to find the right balance between design, electronics and mechanical requirements.",
+      "Very strong communication skills (2.) to find the right balance between design, electronics and mechanical requirements.",
       "Very good lab skills to conduct experiments and validate simulation results with real world prototypes.",
       "Good understanding of manufacturing processes and materials to choose the best options for the product.",
       "Good communication skills with providers to get the mechanical parts ready for production.",
+    ],
+    links: [
+      {
+        text: "Quasar bidirectional EV charger home page",
+        url: "https://wallbox.com/es_es/quasar-dc-charger",
+      },
+      {
+        text: "Looking back at the conception of Quasar with the head of design.",
+        url: "https://www.linkedin.com/posts/wallbox-chargers_el-cargador-que-no-deja-de-ganar-premios-ugcPost-6785539199530483712-Euhe?utm_source=share&utm_medium=member_desktop",
+      },
     ],
   },
 ];

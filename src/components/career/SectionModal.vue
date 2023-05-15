@@ -1,7 +1,7 @@
 <script setup>
 import { VueFinalModal } from "vue-final-modal";
 
-const props = defineProps(["achievements", "knowledge"]);
+const props = defineProps(["achievements", "knowledge", "links"]);
 </script>
 
 <template>
@@ -26,6 +26,14 @@ const props = defineProps(["achievements", "knowledge"]);
           {{ item }}
         </li>
       </ul>
+    </div>
+    <div v-if="props.links">
+      <h2>References</h2>
+      <ol>
+        <li v-for="(item, index) in props.links" :key="index">
+          <a :href="item.url" target="_blank">{{ item.text }}</a>
+        </li>
+      </ol>
     </div>
     <slot />
   </VueFinalModal>

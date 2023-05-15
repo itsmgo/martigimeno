@@ -52,10 +52,6 @@ const methods = {
       >
       </iframe>
     </div>
-    <div class="section">
-      <h2>About the content ownership of this portfolio</h2>
-      <p v-for="(item, index) in about" :key="index">{{ item }}</p>
-    </div>
     <div v-for="section in sections" :key="section.name" class="section">
       <h2>{{ section.name }}</h2>
       <div class="images">
@@ -66,6 +62,10 @@ const methods = {
           />
         </div>
       </div>
+    </div>
+    <div class="section">
+      <h2>About the content ownership of this portfolio</h2>
+      <p v-for="(item, index) in about" :key="index">{{ item }}</p>
     </div>
   </div>
   <GalleryModal
